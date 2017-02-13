@@ -24,9 +24,10 @@ class Demo extends React.Component {
     return (
       <div>
         <h2>Icon</h2>
-        <Icon name="clock" />
+        <Icon name="clock" className="my-class" />
         <Icon name="cog" spin="cw" />
         <Icon name="cycle" spin="ccw" />
+        <Icon name="popup" aria-hidden="true" aria-label="Opens in a new window or tab" />
       </div>
     )
   }

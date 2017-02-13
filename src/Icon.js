@@ -1,13 +1,14 @@
 import React from "react"
 import classNames from "classnames"
 
-const Icon = ({ name, spin }) => {
-  const classes = classNames("bc-svg", `bc-svg-${name}`, {
-    "bc-spin-cw": spin === "cw", 
-    "bc-spin-ccw": spin === "ccw"
-  })
+const Icon = ({ name, spin, className, ...rest }) => {
+  const optional = {
+    [`bc-spin-${spin}`]: spin
+  }
+  const classes = classNames("bc-svg", `bc-svg-${name}`, optional, className)
+
   return ( 
-    <svg className={classes} aria-hidden="true">
+    <svg {...rest} className={classes}>
       <use xlinkHref={`#icon-${name}`}></use>
     </svg>
   )
