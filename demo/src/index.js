@@ -1,7 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-
-import Component from '../../src'
+import Icon from '../../src/Icon'
 
 const htmlToElement = (html) => {
   const div = document.createElement('div');
@@ -24,8 +23,10 @@ class Demo extends React.Component {
   render() {
     return (
       <div>
-        <h1>sui-react Demo</h1>
-        <Component/>
+        <h2>Icon</h2>
+        <Icon name="clock" />
+        <Icon name="cog" spin="cw" />
+        <Icon name="cycle" spin="ccw" />
       </div>
     )
   }
