@@ -1,9 +1,13 @@
 import React from 'react'
+import Icon from './Icon'
 
-export default React.createClass({
+export default class extends React.Component {
   render() {
     return <div>
-      <h2>Welcome to React components</h2>
+      <h2>Icon</h2>
+      <Icon name="clock" />
+      <Icon name="cog" spin="cw" />
+      <Icon name="cycle" spin="ccw" />
     </div>
   }
-})
+}
