@@ -22,10 +22,12 @@ class Demo extends React.Component {
   }
 
   render() {
-    return <div>
-      <h1>sui-react Demo</h1>
-      <Component/>
-    </div>
+    return (
+      <div>
+        <h1>sui-react Demo</h1>
+        <Component/>
+      </div>
+    )
   }
 }
 
