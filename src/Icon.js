@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react"
+import classNames from "classnames"
 
-const Icon = ({ name }) => {
+const Icon = ({ name, spin }) => {
+  const classes = classNames("bc-svg", `bc-svg-${name}`, {
+    "bc-spin-cw": spin === "cw", 
+    "bc-spin-ccw": spin === "ccw"
+  })
   return ( 
-    <svg className={"bc-svg bc-svg-" + name} aria-hidden="true">
-      <use xlinkHref={"#icon-" + name}></use>
+    <svg className={classes} aria-hidden="true">
+      <use xlinkHref={`#icon-${name}`}></use>
     </svg>
   )
 }
