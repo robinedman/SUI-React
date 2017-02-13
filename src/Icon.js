@@ -1,3 +1,4 @@
+// Icon component which handles icon classes and rotation
 import React from "react"
 import classNames from "classnames"
 
@@ -13,5 +14,10 @@ const Icon = ({ name, spin, className, ...rest }) => {
     </svg>
   )
 }
-
+ 
+Icon.propTypes = {
+  name: React.PropTypes.string.isRequired,
+  spin: React.PropTypes.oneOf(["cw", "ccw"]),
+  className: React.PropTypes.string
+}
 export default Icon
