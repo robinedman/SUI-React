@@ -31,7 +31,7 @@ class Demo extends React.Component {
         <Icon name="popup" aria-hidden="true" aria-label="Opens in a new window or tab" />
 
         <h2>Textual link panel</h2>
-        <Panel title="Textual link panel, which is alingned center and has only heading.">  
+        <Panel title="Textual link panel, which is alingned center and has only heading." className="blas">  
           
         </Panel>
       </div>
