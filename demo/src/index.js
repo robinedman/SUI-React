@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import Icon from '../../src/Icon'
+import Panel from '../../src/Panel'
 
 const htmlToElement = (html) => {
   const div = document.createElement('div');
@@ -28,6 +29,11 @@ class Demo extends React.Component {
         <Icon name="cog" spin="qqw" />
         <Icon name="cycle" spin="ccw" />
         <Icon name="popup" aria-hidden="true" aria-label="Opens in a new window or tab" />
+
+        <h2>Textual link panel</h2>
+        <Panel title="Textual link panel, which is alingned center and has only heading.">  
+          
+        </Panel>
       </div>
     )
   }
