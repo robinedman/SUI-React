@@ -8,7 +8,7 @@ const Icon = ({ name, spin, className, ...rest }) => {
   }
   const classes = classNames("bc-svg", `bc-svg-${name}`, optional, className)
 
-  return ( 
+  return (
     <svg {...rest} className={classes}>
       <use xlinkHref={`#icon-${name}`}></use>
     </svg>
@@ -20,4 +20,5 @@ Icon.propTypes = {
   spin: React.PropTypes.oneOf(["cw", "ccw"]),
   className: React.PropTypes.string
 }
+
 export default Icon
