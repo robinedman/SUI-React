@@ -9,7 +9,7 @@ const Icon = ({ name, spin, className, ...rest }) => {
   const classes = classNames("bc-svg", `bc-svg-${name}`, optional, className)
 
   return (
-    <svg {...rest} className={classes}>
+    <svg aria-hidden={true} {...rest} className={classes}>
       <use xlinkHref={`#icon-${name}`}></use>
     </svg>
   )

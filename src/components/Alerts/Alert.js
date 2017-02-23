@@ -2,16 +2,20 @@ import React from "react"
 import classNames from "classnames"
 import Icon from "../Icons/Icon"
 
-const Alert = ({ children, onDismiss, closeBtnLabel = "Close", className, ...rest }) => {
+/*
+  <Alert /> is used as a base for other alerts, or directly when you need
+  a more customisasble alert.
+*/
+const Alert = ({ children, onDismiss, dismissBtnLabel = "Close", className, ...rest }) => {
+  const dismissBtn = (
+    <button type="button" className="close" aria-label={dismissBtnLabel} onClick={onDismiss}>
+      <Icon name="cancel-circled" />
+    </button>
+  )
+
   const classes = classNames("alert fade in", {
     'alert-dismissible': onDismiss
   }, className)
-
-  const dismissBtn = (
-    <button type="button" className="close" aria-label={closeBtnLabel} onClick={onDismiss}>
-      <Icon name="cancel-circled" aria-hidden="true" />
-    </button>
-  )
 
   return (
     <div {...rest} className={classes} role="alert">
@@ -19,6 +23,11 @@ const Alert = ({ children, onDismiss, closeBtnLabel = "Close", className, ...res
       {children}
     </div>
   )
+}
+
+Alert.propTypes = {
+  onDismiss: React.PropTypes.func,
+  dismissBtnLabel: React.PropTypes.string
 }
 
 export default Alert
