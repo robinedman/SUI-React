@@ -1,0 +1,14 @@
+/* Component library CSS for the navigation bar */
+
+.navbar-repo {
+  margin-bottom: 20px;
+  background-color: #000;
+  border-color: #000;
+}
+
+.navbar-brand.sui-logo {
+  font-size: 35px;
+  color: #fff;
+  padding: 10px 5px;
+  font-weight: 600;
+}
