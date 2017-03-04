@@ -40,21 +40,25 @@ class Demo extends React.Component {
     )
 
     return (
-      <div>
-        <h2>Icon</h2>
-        <Icon name="clock" className="my-class" />
-        <Icon name="cog" spin="cw" />
-        <Icon name="cycle" spin="ccw" />
-        <Icon name="popup" aria-hidden="true" aria-label="Opens in a new window or tab" />
+      <div className="container">
+        <div className="row">
+          <div className="col-xs-12">  
+            <h2>Icon</h2>
+            <Icon name="clock" className="my-class" />
+            <Icon name="cog" spin="cw" />
+            <Icon name="cycle" spin="ccw" />
+            <Icon name="popup" aria-hidden="true" aria-label="Opens in a new window or tab" />
 
-        <h2>Alert</h2>
-        {this.state.isNewsAlertVisible && newsAlert}
+            <h2>Alert</h2>
+            {this.state.isNewsAlertVisible && newsAlert}
 
-        <NoteAlert>
-          <p>If you have a disability and require a modified version of the test you must give the Test Centre 3 months notice.</p>
-        </NoteAlert>
+            <NoteAlert>
+              <p>If you have a disability and require a modified version of the test you must give the Test Centre 3 months notice.</p>
+            </NoteAlert>
 
-        {this.state.isBootstrapAlertVisible && bootstrapAlert}
+            {this.state.isBootstrapAlertVisible && bootstrapAlert}
+          </div>  
+        </div>  
       </div>
     )
   }
