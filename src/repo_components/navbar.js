@@ -1,13 +1,14 @@
 import React from 'react'
 import Icon from '../components/Icons/Icon'
 import './navbar.css'
+import reactlogo from './reactlogo.svg'
 
 const RepoNavbar = () => {
   return (
     <nav className="navbar navbar-repo">
       <div className="container">
         <div className="navbar-header">
-          <a href="#" className="navbar-brand sui-logo">SUI-React</a>
+          <a href="#" className="navbar-brand sui-logo">SUI<span>React</span></a>
           <div className="btn-group bc-btn-navbar-group">
             <button type="button" className="btn">
               Components

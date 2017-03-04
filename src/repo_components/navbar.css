@@ -10,11 +10,23 @@
   font-size: 35px;
   color: #fff;
   padding: 10px 5px;
-  font-weight: 600;
+}
+
+.navbar-brand.sui-logo span {
+  font: 0/0 a;
+  color: transparent;
+  display: inline-block;
+  width: 88px;
+  height: 33px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: url(/reactlogo.a5d8ca3e.svg) 1px 6px no-repeat;
+  background-size: contain;
 }
 
 .navbar-repo .bc-btn-navbar-group {
-  margin: 0 0 0 18px;
+  margin: 7px 0 0 18px;
   border-left: 1px solid #333;
   display: block;
   float: left;
