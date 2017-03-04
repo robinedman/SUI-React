@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import RepoNavbar from '../../src/repo_components/navbar'
 import Icon from '../../src/components/Icons/Icon'
 import { Alert, NewsAlert, NoteAlert } from '../../src/components/Alerts'
+import '../../src/repo_components/typography.css'
 
 const htmlToElement = (html) => {
   const div = document.createElement('div');
@@ -46,14 +47,15 @@ class Demo extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
-
-              <h2>Icon</h2>
+              <h1 className="repo-header">SUI-React components</h1>
+              <p>Solas UI React components with Solas UI styling.</p>
+              <h2 className="repo-header">Icon</h2>
               <Icon name="clock" className="my-class" />
               <Icon name="cog" spin="cw" />
               <Icon name="cycle" spin="ccw" />
               <Icon name="popup" aria-hidden="true" aria-label="Opens in a new window or tab" />
 
-              <h2>Alert</h2>
+              <h2 className="repo-header">Alert</h2>
               {this.state.isNewsAlertVisible && newsAlert}
 
               <NoteAlert>

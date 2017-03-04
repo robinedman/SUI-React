@@ -1,7 +1,6 @@
 import React from 'react'
 import Icon from '../components/Icons/Icon'
 import './navbar.css'
-import reactlogo from './reactlogo.svg'
 
 const RepoNavbar = () => {
   return (
