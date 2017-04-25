@@ -139,6 +139,54 @@ class Demo extends React.Component {
               <Linkpanel title="IELTS Test Dates 2017" href="#" />
             </div>
           </div>
+
+          <div className="row">
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <Linkpanel
+                image={
+                  <img
+                    src="http://lorempixel.com/400/200/nature"
+                    alt=""
+                    className="landscape"
+                  />
+                }
+                text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
+                title="Teacher training"
+                href="#"
+              />
+            </div>
+
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <Linkpanel
+                icon="globe"
+                image={
+                  <img
+                    src="http://lorempixel.com/400/200/nature"
+                    alt=""
+                    className="landscape"
+                  />
+                }
+                title="Teacher training"
+                href="http://www.britishcouncil.org"
+              />
+            </div>
+
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <Linkpanel
+                image={
+                  <img
+                    src="http://lorempixel.com/400/200/nature"
+                    alt=""
+                    className="landscape"
+                  />
+                }
+                text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
+                title="Teacher training"
+                href="#"
+              />
+            </div>
+          </div>
+
         </div>
       </div>
     );
