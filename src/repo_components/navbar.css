@@ -1,0 +1,42 @@
+/* Component library CSS for the navigation bar */
+
+.navbar-repo {
+  margin-bottom: 20px;
+  background-color: #000;
+  border-bottom: 4px solid #9cf;
+}
+
+.navbar-brand.sui-logo {
+  font-size: 35px;
+  color: #fff;
+  padding: 10px 5px;
+}
+
+.navbar-brand.sui-logo span {
+  font: 0/0 a;
+  color: transparent;
+  display: inline-block;
+  width: 88px;
+  height: 33px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: url(/reactlogo.a5d8ca3e.svg) 1px 6px no-repeat;
+  background-size: contain;
+}
+
+.navbar-repo .bc-btn-navbar-group {
+  margin: 7px 0 0 18px;
+  border-left: 1px solid #333;
+  display: block;
+  float: left;
+  clear: none;
+}
+
+.navbar-repo .bc-btn-navbar-group .btn {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background: 0 0;
+  border-color: transparent;
+  color: #fff;
+}
