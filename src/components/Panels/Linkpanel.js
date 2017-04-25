@@ -2,7 +2,7 @@
 import React from "react";
 import Icon from "../Icons/Icon";
 
-const Linkpanel = ({ title, className, href, icon, image, text, target }) => {
+const Linkpanel = ({ title, href, icon, image, text, target, className }) => {
   target = target || href.includes("http") ? "_blank" : "";
 
   const imageOrText = image ? "image" : "text";
@@ -25,6 +25,7 @@ const Linkpanel = ({ title, className, href, icon, image, text, target }) => {
 };
 
 Linkpanel.propTypes = {
+  title: React.PropTypes.string.isRequired,
   href: React.PropTypes.string.isRequired
 };
 

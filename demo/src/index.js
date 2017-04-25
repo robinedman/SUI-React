@@ -187,6 +187,100 @@ class Demo extends React.Component {
             </div>
           </div>
 
+          <div className="row">
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <Linkpanel
+                image={
+                  <img
+                    src="http://lorempixel.com/630/630/nature"
+                    alt=""
+                    className="square"
+                  />
+                }
+                text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
+                title="Teacher training"
+                href="#"
+              />
+            </div>
+
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <Linkpanel
+                icon="globe"
+                image={
+                  <img
+                    src="http://lorempixel.com/630/630/nature"
+                    alt=""
+                    className="square"
+                  />
+                }
+                title="Teacher training"
+                href="http://www.britishcouncil.org"
+              />
+            </div>
+
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <Linkpanel
+                image={
+                  <img
+                    src="http://lorempixel.com/630/630/nature"
+                    alt=""
+                    className="square"
+                  />
+                }
+                text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
+                title="Teacher training"
+                href="#"
+              />
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <Linkpanel
+                image={
+                  <img
+                    src="http://lorempixel.com/473/630/nature"
+                    alt=""
+                    className="portrait"
+                  />
+                }
+                text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
+                title="Teacher training"
+                href="#"
+              />
+            </div>
+
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <Linkpanel
+                icon="globe"
+                image={
+                  <img
+                    src="http://lorempixel.com/473/630/nature"
+                    alt=""
+                    className="portrait"
+                  />
+                }
+                title="Teacher training"
+                href="http://www.britishcouncil.org"
+              />
+            </div>
+
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <Linkpanel
+                image={
+                  <img
+                    src="http://lorempixel.com/473/630/nature"
+                    alt=""
+                    className="portrait"
+                  />
+                }
+                text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
+                title="Teacher training"
+                href="#"
+              />
+            </div>
+          </div>
+
         </div>
       </div>
     );
