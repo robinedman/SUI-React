@@ -90,19 +90,19 @@ class Demo extends React.Component {
 
           <div className="row">
             <div className="col-xs-12 col-sm-4 col-md-4">
-              <Linkpanel icon="alert" title="Teacher training" href="#" />
+              <Linkpanel icon="alert" title="Upcoming arts events" href="#" />
             </div>
 
             <div className="col-xs-12 col-sm-4 col-md-4">
               <Linkpanel
                 icon="globe"
-                title="Teacher training"
+                title="Upcoming arts events"
                 href="http://www.britishcouncil.org"
               />
             </div>
 
             <div className="col-xs-12 col-sm-4 col-md-4">
-              <Linkpanel icon="alert" title="Teacher training" href="#" />
+              <Linkpanel icon="alert" title="Upcoming arts events" href="#" />
             </div>
           </div>
 
@@ -145,13 +145,13 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/400/200/nature"
+                    src="http://lorempixel.com/400/200/nature#0"
                     alt=""
                     className="landscape"
                   />
                 }
                 text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
-                title="Teacher training"
+                title="Upcoming arts events"
                 href="#"
               />
             </div>
@@ -161,12 +161,12 @@ class Demo extends React.Component {
                 icon="globe"
                 image={
                   <img
-                    src="http://lorempixel.com/400/200/nature"
+                    src="http://lorempixel.com/400/200/nature/1"
                     alt=""
                     className="landscape"
                   />
                 }
-                title="Teacher training"
+                title="Upcoming arts events"
                 href="http://www.britishcouncil.org"
               />
             </div>
@@ -175,13 +175,13 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/400/200/nature"
+                    src="http://lorempixel.com/400/200/nature/2"
                     alt=""
                     className="landscape"
                   />
                 }
                 text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
-                title="Teacher training"
+                title="Upcoming arts events"
                 href="#"
               />
             </div>
@@ -192,13 +192,13 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/630/630/nature"
+                    src="http://lorempixel.com/630/630/nature/3"
                     alt=""
                     className="square"
                   />
                 }
                 text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
-                title="Teacher training"
+                title="Upcoming arts events"
                 href="#"
               />
             </div>
@@ -208,12 +208,12 @@ class Demo extends React.Component {
                 icon="globe"
                 image={
                   <img
-                    src="http://lorempixel.com/630/630/nature"
+                    src="http://lorempixel.com/630/630/nature/4"
                     alt=""
                     className="square"
                   />
                 }
-                title="Teacher training"
+                title="Upcoming arts events"
                 href="http://www.britishcouncil.org"
               />
             </div>
@@ -222,13 +222,13 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/630/630/nature"
+                    src="http://lorempixel.com/630/630/nature/5"
                     alt=""
                     className="square"
                   />
                 }
                 text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
-                title="Teacher training"
+                title="Upcoming arts events"
                 href="#"
               />
             </div>
@@ -239,13 +239,13 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/473/630/nature"
+                    src="http://lorempixel.com/473/630/nature/6"
                     alt=""
                     className="portrait"
                   />
                 }
                 text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
-                title="Teacher training"
+                title="Upcoming arts events"
                 href="#"
               />
             </div>
@@ -255,12 +255,12 @@ class Demo extends React.Component {
                 icon="globe"
                 image={
                   <img
-                    src="http://lorempixel.com/473/630/nature"
+                    src="http://lorempixel.com/473/630/nature/7"
                     alt=""
                     className="portrait"
                   />
                 }
-                title="Teacher training"
+                title="Upcoming arts events"
                 href="http://www.britishcouncil.org"
               />
             </div>
@@ -269,13 +269,13 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/473/630/nature"
+                    src="http://lorempixel.com/473/630/nature/8"
                     alt=""
                     className="portrait"
                   />
                 }
                 text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
-                title="Teacher training"
+                title="Upcoming arts events"
                 href="#"
               />
             </div>
