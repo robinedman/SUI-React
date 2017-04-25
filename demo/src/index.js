@@ -145,7 +145,7 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/400/200/nature"
+                    src="http://lorempixel.com/400/200/nature#0"
                     alt=""
                     className="landscape"
                   />
@@ -161,7 +161,7 @@ class Demo extends React.Component {
                 icon="globe"
                 image={
                   <img
-                    src="http://lorempixel.com/400/200/nature"
+                    src="http://lorempixel.com/400/200/nature/1"
                     alt=""
                     className="landscape"
                   />
@@ -175,7 +175,7 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/400/200/nature"
+                    src="http://lorempixel.com/400/200/nature/2"
                     alt=""
                     className="landscape"
                   />
@@ -192,7 +192,7 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/630/630/nature"
+                    src="http://lorempixel.com/630/630/nature/3"
                     alt=""
                     className="square"
                   />
@@ -208,7 +208,7 @@ class Demo extends React.Component {
                 icon="globe"
                 image={
                   <img
-                    src="http://lorempixel.com/630/630/nature"
+                    src="http://lorempixel.com/630/630/nature/4"
                     alt=""
                     className="square"
                   />
@@ -222,7 +222,7 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/630/630/nature"
+                    src="http://lorempixel.com/630/630/nature/5"
                     alt=""
                     className="square"
                   />
@@ -239,7 +239,7 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/473/630/nature"
+                    src="http://lorempixel.com/473/630/nature/6"
                     alt=""
                     className="portrait"
                   />
@@ -255,7 +255,7 @@ class Demo extends React.Component {
                 icon="globe"
                 image={
                   <img
-                    src="http://lorempixel.com/473/630/nature"
+                    src="http://lorempixel.com/473/630/nature/7"
                     alt=""
                     className="portrait"
                   />
@@ -269,7 +269,7 @@ class Demo extends React.Component {
               <Linkpanel
                 image={
                   <img
-                    src="http://lorempixel.com/473/630/nature"
+                    src="http://lorempixel.com/473/630/nature/8"
                     alt=""
                     className="portrait"
                   />
