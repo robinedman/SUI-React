@@ -90,19 +90,19 @@ class Demo extends React.Component {
 
           <div className="row">
             <div className="col-xs-12 col-sm-4 col-md-4">
-              <Linkpanel icon="alert" title="Upcoming arts events" href="#" />
+              <Linkpanel icon="alert" title="Teacher training" href="#" />
             </div>
 
             <div className="col-xs-12 col-sm-4 col-md-4">
               <Linkpanel
                 icon="globe"
-                title="Upcoming arts events"
+                title="Teacher training"
                 href="http://www.britishcouncil.org"
               />
             </div>
 
             <div className="col-xs-12 col-sm-4 col-md-4">
-              <Linkpanel icon="alert" title="Upcoming arts events" href="#" />
+              <Linkpanel icon="alert" title="Teacher training" href="#" />
             </div>
           </div>
 
@@ -151,7 +151,7 @@ class Demo extends React.Component {
                   />
                 }
                 text="Lorem ipsum bendum iaculis libero, eget molestie nisl pharetra in."
-                title="Upcoming arts events"
+                title="Teacher training"
                 href="#"
               />
             </div>
