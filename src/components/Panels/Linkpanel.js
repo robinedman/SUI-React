@@ -2,7 +2,9 @@
 import React from "react";
 import Icon from "../Icons/Icon";
 
-const Linkpanel = ({ title, href, icon, image, text, target, className }) => {
+const Linkpanel = (
+  { title, href, icon, image, text, target, className = "" }
+) => {
   target = target || href.includes("http") ? "_blank" : "";
 
   const imageOrText = image ? "image" : "text";
