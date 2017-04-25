@@ -60,10 +60,9 @@ class Demo extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
-              <h1 className="repo-header">SUI-React components</h1>
               <p>Solas UI React components with Solas UI styling.</p>
 
-              <h2 className="repo-header">Alert</h2>
+              <h1 className="repo-header">Alert</h1>
               {this.state.isNewsAlertVisible && newsAlert}
 
               <NoteAlert>
@@ -74,7 +73,7 @@ class Demo extends React.Component {
 
               {this.state.isBootstrapAlertVisible && bootstrapAlert}
 
-              <h2 className="repo-header">Icon</h2>
+              <h1 className="repo-header">Icon</h1>
               <Icon name="clock" className="my-class" />
               <Icon name="cog" spin="cw" />
               <Icon name="cycle" spin="ccw" />
@@ -83,8 +82,28 @@ class Demo extends React.Component {
                 aria-hidden="true"
                 aria-label="Opens in a new window or tab"
               />
+            </div>
+          </div>
 
-              <h2 className="repo-header">Linkpanel</h2>
+          <div className="row">
+            <div className="col-xs-12 col-md-8 center-block">
+              <h1 className="repo-header">Linkpanel</h1>
+
+              <h2 className="repo-header">Textual link panels</h2>
+              <p>
+                Any icon from our
+                {" "}
+                <a
+                  href="https://sui-test.live.solas.britishcouncil.digital/0.0.10/components/icons.html"
+                >
+                  icon set
+                </a>
+                {" "}
+                can be used in conjunction with this component.
+              </p>
+              <p>
+                There is an optional paragraph that should only be used if the title isn't obvious enough.
+              </p>
             </div>
           </div>
 
@@ -125,18 +144,36 @@ class Demo extends React.Component {
 
           <div className="row">
             <div className="col-xs-12 col-sm-4 col-md-4">
-              <Linkpanel title="IELTS Test Dates 2017" href="#" />
+              <Linkpanel
+                title="IELTS Test Dates 2017"
+                text="Register now!"
+                href="#"
+              />
             </div>
 
             <div className="col-xs-12 col-sm-4 col-md-4">
               <Linkpanel
                 title="IELTS Test Dates 2017"
+                text="Register now!"
                 href="http://www.britishcouncil.org"
               />
             </div>
 
             <div className="col-xs-12 col-sm-4 col-md-4">
-              <Linkpanel title="IELTS Test Dates 2017" href="#" />
+              <Linkpanel
+                title="IELTS Test Dates 2017"
+                text="Register now!"
+                href="#"
+              />
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-xs-12 col-md-8 center-block">
+              <h2 className="repo-header">Image link panels</h2>
+              <p>
+                Image based link panels can be used in conjuction with square, portrait or landscape images.
+              </p>
             </div>
           </div>
 
